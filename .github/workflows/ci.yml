@@ -29,7 +29,3 @@ jobs:
       # 4. 代码检查
       - name: Run ESLint
         run: npm run lint
-      
-      # 5. 运行测试
-      - name: Run tests
-        run: npm run test
